@@ -21,3 +21,11 @@ a[0:6:1] #a[start:end:step] start,end are both indexes, end is not included
 a[0:5] #[1,2,3,4,5] index 5 stands for 6, but 6 is not included
 a[:-2:] #[1,2,3,4] index -2 stands for 5
 a[::-1] #[6,5,4,3,2,1]
+
+# split strings according to ' '
+a = 'hello world'
+b = a.split() #b = ['hello','world']
+
+# join strings in a list
+c = ' '.join(b) #c = 'helloworld'
+
