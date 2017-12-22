@@ -1,10 +1,10 @@
 ## framework for backtracking problems
 ``` python
 if condition satisfied:
-
-  succeed
   
   record solution to result
+  
+  return result
   
 else:
   
@@ -16,7 +16,7 @@ else:
       
         add i to solution
         
-        solve subproblem
+        result = solve subproblem
         
         remove i from solution
         
