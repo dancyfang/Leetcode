@@ -1,5 +1,5 @@
 ## framework for backtracking problems
-'''
+``` python
 if condition satisfied:
 
   succeed
@@ -21,7 +21,7 @@ else:
         remove i from solution
         
   return result
- ''' 
+ ```
   
   ## Typical problems
   
