@@ -1,7 +1,7 @@
 ```python
 [x for x in range(1,10) if x%3]              #for-if one line    x%3 is true for x cannot divide 3
 #Out: [1,2,4,5,7,8]
-
+```
 
 [x if x%3 else 100*x for x in range(1,10)]               # if-else-for in one line
 #Out: [1,2,300,4,5,600,7,8,900]
