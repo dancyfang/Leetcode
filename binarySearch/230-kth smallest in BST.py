@@ -5,6 +5,9 @@
 #         self.left = None
 #         self.right = None
 
+# BST: all left child smaller or equal to root, all right child larger or equal to root
+# Use the recursive feature of a tree
+
 # binary search, count number of nodes
 class Solution:
     def kthSmallest(self, root, k):
