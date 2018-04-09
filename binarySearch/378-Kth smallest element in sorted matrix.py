@@ -37,7 +37,7 @@ class Solution:
             top = heap[1]
 #             print(top)
             if top[0] < len(matrix) - 1:
-                heap[1] = (top[0]+1, top[1], matrix[top[0]+1][top[1]])
+                heap[1] = (top[0]+1, top[1], matrix[top[0]+1][top[1]])           //?????????
                 self.percDown(1, heap)
             else:
                 heap[1] = heap[-1]
