@@ -1,3 +1,5 @@
+# NSum solved using 2Sum
+
 from collections import Counter
 class Solution(object):
     # NSum works for N >= 2
