@@ -82,7 +82,8 @@ class MinHeap:
         self.percDown(1)
         return res
     
-    # O(n) time, start from the last parent node, percDown if that parent node is larger than children.
+    # O(n) time! This is a tighter bound compared to O(nlog(n)), because the number of percDown for each parent node is different. 
+    Start from the last parent node, percDown if that parent node is larger than children.
     def buildHeap(self, alist):
         self.__init__()
         self.heap = self.heap + alist[:]
