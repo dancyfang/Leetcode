@@ -11,6 +11,7 @@ class Solution(object):
         :type l2: ListNode
         :rtype: ListNode
         """
+        # Let's add a comment here.
         root = n = ListNode(0) # copy root, shallow copy
         carry = 0
         while l1 or l2 or carry: 
